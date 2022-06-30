@@ -106,10 +106,11 @@
             var a=text.value;
             firebase.database().ref('Mode/').set({
             mode:2,
+            state:1,
         });
         firebase.database().ref('Text/').set({
             mode:a,
-            state:1,
+            
                 });
         })
         
