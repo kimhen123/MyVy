@@ -92,12 +92,14 @@
             
             firebase.database().ref('Mode/').set({
             mode:0,
+            state:1,
             });
             
         })
         Temp.addEventListener('click', ()=>{
             firebase.database().ref('Mode/').set({
             mode:1,
+            state:1,
         });
         })
         Ok.addEventListener('click', ()=>{
@@ -107,6 +109,7 @@
         });
         firebase.database().ref('Text/').set({
             mode:a,
+            state:1,
                 });
         })
         
