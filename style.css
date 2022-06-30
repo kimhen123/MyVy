@@ -1,0 +1,95 @@
+@charset "utf-8";
+* {
+    padding: 0px;
+    margin: 0px;
+}
+.form{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1618022325802-7e5e732d97a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80);
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+.form_1{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.form_2{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.form_1_center{
+    width: 100%;
+    height: 60px;
+    background-image: linear-gradient(45deg, #30c5d8 0%, #ff2bf8 52%, #2BFF88 90%);
+-webkit-background-clip: text;
+-webkit-background-clip: text;
+background-clip: text;
+color: transparent;
+font-family: monospace;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+   
+    
+}
+.form_2_center{
+    width: 100%;
+    height: 60px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 5px 2px 4px grey;
+    
+    
+    
+}
+button{
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+    background-image: linear-gradient(-90deg, rgba(75, 219, 244, 0.688), rgb(111, 20, 112));
+}
+label {
+    display: inline-block;
+    position: relative;
+    height: 20px;
+    top: 0;
+    left: 0;
+    padding: 10px 15px;
+    text-shadow: 0 1px 0 rgba(19,74,70,.4);
+    background-image: linear-gradient(-75deg, #1e3f8b 22%, #c33a6a 90%);
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.text{
+    display: inline-block;
+  width: 200px;
+  padding: 5px 0 5px 5px;
+  font-family: "Open Sans", sans;
+  font-weight: 400;
+  color: black;
+  font-size: 20px;
+  background: #efefef;
+  border-radius: 3px;
+  outline: 0;
+  text-indent: 70px; 
+}
